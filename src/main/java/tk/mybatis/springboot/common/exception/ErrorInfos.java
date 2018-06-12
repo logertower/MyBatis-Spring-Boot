@@ -23,4 +23,8 @@ public class ErrorInfos {
     public void setErrMsgs(Map<String, String> errMsgs) {
         this.errMsgs = errMsgs;
     }
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+    }
 }
