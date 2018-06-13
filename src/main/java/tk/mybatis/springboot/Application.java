@@ -17,6 +17,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class Application extends WebMvcConfigurerAdapter {
 
     public static void main(String[] args) {
+        System.out.println("Application 开始启动");
         SpringApplication.run(Application.class, args);
         System.out.println("Application 启动成功");
     }
