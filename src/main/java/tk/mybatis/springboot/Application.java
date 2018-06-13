@@ -18,6 +18,7 @@ public class Application extends WebMvcConfigurerAdapter {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        System.out.println("Application 启动成功");
     }
 
     @RequestMapping("/")
