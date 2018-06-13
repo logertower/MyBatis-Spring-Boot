@@ -26,6 +26,7 @@ public class ErrorInfos {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
+        system.out.println("Hello Keep");
         System.out.println("nihao xxd");
     }
 }
